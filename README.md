@@ -16,7 +16,7 @@ Fuzzleaf is a Flutter application targeting **Windows, Android and iOS**. It wil
 
 ## Setup
 
-Requires Flutter with Dart >= 3.10. Native host folders are **generated locally**, because the repository intentionally keeps platform-generated boilerplate out of the initial M0 commit.
+Requires a current Flutter stable SDK with Dart >= 3.13. Native host folders are **generated locally**, because the repository intentionally keeps platform-generated boilerplate out of the initial M0 commit.
 
 ```powershell
 git clone https://github.com/ananwanan/Fuzzleaf.git
