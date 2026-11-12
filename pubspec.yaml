@@ -1,0 +1,27 @@
+name: fuzzleaf
+description: Fuzzleaf - a cozy, fully offline AI audiobook reader.
+publish_to: none
+version: 0.1.0+1
+
+environment:
+  sdk: '>=3.10.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  sherpa_onnx: 2.0.1
+  just_audio: ^0.10.6
+  just_audio_media_kit: ^2.1.0
+  media_kit_libs_windows_audio: any
+  path_provider: ^2.1.6
+  path: ^1.9.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/models/kokoro-int8-multi-lang-v1_1/

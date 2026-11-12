@@ -1,0 +1,29 @@
+# Flutter / Dart
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+build/
+coverage/
+*.iml
+.idea/
+.vscode/
+**/GeneratedPluginRegistrant.*
+**/generated_plugin_registrant.dart
+**/ephemeral/
+**/Flutter/ephemeral/
+**/Pods/
+**/.symlinks/
+*.log
+# Large third-party models: not committed to source control.
+assets/models/**/model*.onnx
+assets/models/**/voices.bin
+assets/models/**/lexicon*.txt
+assets/models/**/*.fst
+assets/models/**/tokens.txt
+assets/models/**/dict/
+assets/models/**/espeak-ng-data/
+# Local generated audio
+*.wav
