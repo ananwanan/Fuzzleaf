@@ -4,11 +4,12 @@ publish_to: none
 version: 0.1.0+1
 
 environment:
-  sdk: '>=3.10.0 <4.0.0'
+  sdk: '>=3.13.0 <4.0.0'
 
 dependencies:
   flutter:
     sdk: flutter
+  material_ui: ^1.11.0
   sherpa_onnx: 2.0.1
   just_audio: ^0.10.6
   just_audio_media_kit: ^2.1.0
